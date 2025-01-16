@@ -1,8 +1,8 @@
 name: Benchmarking and site
 on:
-  push:
-    tags:
-      - 'v*'
+  # push:
+  #   tags:
+  #     - 'v*'
   workflow_dispatch:  # This allows manual triggering
 
 jobs:
